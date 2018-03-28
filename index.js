@@ -22,8 +22,3 @@ function deepestChild () {
   }
   return soDeep;
 }
-
-
-
-
-
