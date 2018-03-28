@@ -15,25 +15,7 @@ function increaseRankBy(n) {
 }
 
 function deepestChild () {
-  const boogitey = document.getElementById('app').querySelectorAll('div#grand-node');
-  var thot = [];
-  typeof thot === "string";
-  function find(boogitey, thot) {
-    let current = object;
-    let next = [];
-    while (current) {
-      if (thot(current)) {
-        return current;
-      } 
-      if (Object.isObject(current)) {
-        for (let i = 0; i < current.length; i++) {
-          next.push(current[i]);
-        }
-      }
-      current = next.shift();
-    }
-    return null;
-  }
+  
 }
 
 
